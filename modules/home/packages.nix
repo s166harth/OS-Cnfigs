@@ -7,22 +7,16 @@
     fd                                # find replacement
     file                              # Show file information 
     fzf                               # fuzzy finder
-    gtt                               # google translate TUI
     gimp
     gtrash                            # rm replacement, put deleted files in system trash
     hexdump
     jdk17                             # java
-    lazygit
     libreoffice
     cinnamon.nemo-with-extensions     # file manager
     nitch                             # systhem fetch util
     nix-prefetch-github
-    prismlauncher                     # minecraft launcher
     ripgrep                           # grep replacement
     soundwireserver                   # pass audio to android phone
-    todo                              # cli todo list
-    toipe                             # typing test in the terminal
-    valgrind                          # c memory analyzer
     yazi                              # terminal file manager
     youtube-dl
     gnome.zenity
@@ -62,6 +56,10 @@
     firefox
     steam
     burpsuite    # because fuck yeah!!!
+    calcure         #pRoDuCtIvIty
+    jrnl            #pRoDuCtIvIty
+    logiops    # logitech drivers
+
     inputs.alejandra.defaultPackage.${system}
   ]);
 }

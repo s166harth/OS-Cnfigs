@@ -1,12 +1,12 @@
 {inputs, username, host, ...}: {
   imports =
-       [(import ./aseprite/aseprite.nix)]         # pixel art editor
-    ++ [(import ./audacious/audacious.nix)]       # music player
+     #  [(import ./aseprite/aseprite.nix)]         # pixel art editor
+       [(import ./audacious/audacious.nix)]       # music player
     ++ [(import ./bat.nix)]                       # better cat command
     ++ [(import ./btop.nix)]                      # resouces monitor 
     ++ [(import ./cava.nix)]                      # audio visualizer
     ++ [(import ./discord.nix)]                   # discord with catppuccin theme
-    ++ [(import ./floorp/floorp.nix)]             # firefox based browser
+    # [(import ./floorp/floorp.nix)]             # firefox based browser
     ++ [(import ./gaming.nix)]                    # packages related to gaming
     ++ [(import ./git.nix)]                       # version control
     ++ [(import ./gtk.nix)]                       # gtk theme
@@ -16,13 +16,14 @@
     ++ [(import ./micro.nix)]                     # nano replacement
     ++ [(import ./nvim.nix)]                      # neovim editor
     ++ [(import ./packages.nix)]                  # other packages
-    ++ [(import ./retroarch.nix)]
-    ++ [(import ./rider.nix)]                     # C# JetBrain editor
+    # [(import ./retroarch.nix)]
+    # [(import ./rider.nix)]                     # C# JetBrain editor
     ++ [(import ./scripts/scripts.nix)]           # personal scripts
     ++ [(import ./starship.nix)]                  # shell prompt
     ++ [(import ./swaylock.nix)]                  # lock screen
-    ++ [(import ./vscodium.nix)]                  # vscode forck
+    # [(import ./vscodium.nix)]                  # vscode forck
     ++ [(import ./waybar)]                        # status bar
     ++ [(import ./wofi.nix)]                      # launcher
     ++ [(import ./zsh.nix)];
-}
+#    ++ [(import ./obs.nix)];
+    }

@@ -12,6 +12,6 @@
     ++ [ (import ./system.nix) ]
     ++ [ (import ./user.nix) ]
     ++ [ (import ./wayland.nix) ]
-   # ++ [ (import ./nvidia.nix) ]
+    ++ [ (import ./logitech.nix) ]
     ++ [ (import ./virtualization.nix) ];
 }
